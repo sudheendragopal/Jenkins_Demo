@@ -9,7 +9,7 @@ jobs:
     runs-on: self-runner-node
     steps:
       - name: "Trigger jenkins job"
-        uses: sudheendragopal/Jenkins_Demo
+        uses: sudheendragopal/Jenkins_Demo@main
         with:
           jenkins-url: "https://agis-jenkins.appfuxion.com/"
           user: "admin"
